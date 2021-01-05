@@ -1,0 +1,70 @@
+body {
+	background: url(Images/dark-paths.png);
+}
+header {
+	text-align: center;
+}
+.name {
+	margin-top: 3em;
+	text-align: center;
+	color: White;
+	font-family: Arial, sans-serif;
+}
+.photo {
+	text-align: center;
+}
+.contacts {
+	font-size: 18px;
+	color: White;
+}
+.first-section {
+	margin-top: 4em;
+    margin-bottom: 4em;
+	text-align: center;
+	color: White;
+}
+.second-section{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    color: White
+}
+.third-section{
+	margin-top: 3em;
+	margin-bottom: 4em;
+    text-align: center;
+}
+#container {
+  display: flex;
+}
+.first-images-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.second-images-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.third-images-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+img {
+	border:3px solid #000000;	
+}
+img:hover {
+	border:3px solid #FF0000;
+}
+p {
+	font-size: 18px;
+	font-family: Andale Mono, monospace;
+}
+h3 {
+	color: #0000FF ;
+	font-size: 25px;
+	font-weight: 500px;
+	font-family: Andale Mono, monospace;
+}
